@@ -1,0 +1,1 @@
+Photography in this site is strictly for personal use only.
