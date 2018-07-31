@@ -1,0 +1,133 @@
+
+/*Bootstrap Margin Override*/
+
+#bootstrap-override .container img, #bootstrap-override .container p {
+	margin-top: 3em;
+}
+
+/*Background*/
+
+.main-body {	
+	background-image: url(./other/pagebg.jpg);
+	background: repeat-x cover center;
+}
+
+
+/* Navbar Styling and Responsiveness*/
+
+.navbar {
+	position: fixed;
+	background-color: white;
+	min-width: 100%;
+	z-index: 12;
+}
+
+nav {
+	color: black;
+	font-size: 1rem;
+}
+
+.nav-item {
+	margin-right: 1.5em;
+}
+
+li.active {
+	color: black;
+	background-color: transparent; 
+}
+
+.dropdown-item:focus {
+	color: white;
+	background-color: grey; 
+}
+
+.dropdown-menu{
+	background-color: white;
+	border: none;
+  }
+
+
+/*Jumbotron Glacier Styling*/
+
+#jumbotronglacier {
+	background-image: url(./jumbotron-low-res/7hra.JPG);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	top: 3em;
+}
+
+.jumbotron{
+	height: 20em;
+	border-radius: 0;
+}
+
+@media only screen and (min-width: 768px) {
+.jumbotron {
+	height: 25em;
+}
+}
+
+
+@media only screen and (min-width: 992px) {
+.jumbotron {
+	height: 30em;
+}
+}
+
+
+@media only screen and (min-width: 1200px) {
+.jumbotron {
+	height: 35em;
+}
+}
+
+
+/*Main Body*/
+
+.link {
+	color: darkgrey;
+	font-weight: 600;
+}
+
+.link:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+.link:focus {
+	color: black; 
+}
+
+#day4 {
+	font-weight: 600;
+}
+/*Main Body Headers*/
+
+
+@media only screen and (max-width: 576px) {
+	.display-3 {
+	font-size: 2rem;
+}
+
+	.display-4 {
+	font-size: 1.5rem;
+	}
+
+@media only screen and (max-width: 768px) {
+	.display-3 {
+	font-size: 3rem;
+}
+
+	.display-4 {
+	font-size: 2rem;
+	}
+
+
+/*Footer Image Sizing*/
+
+	.footer img {
+		border: none;
+		margin: 1rem;
+	}
+

@@ -1,0 +1,129 @@
+#bootstrap-override .intro {
+	margin-top: 1em;
+}
+
+#bootstrap-override .container img, #bootstrap-override .container p {
+	margin-top: 3em;
+}
+
+#bootstrap-override .goodbye {
+	margin-bottom: 3em;
+}
+
+/*Background*/
+
+.main-body {	
+	background-image: url(./other/pagebg.jpg);
+	background-repeat: repeat-x; 
+	background-position: center;
+	background-size: 100% 100%;  
+}
+
+/* Navbar Styling and Responsiveness*/
+
+.navbar {
+	position: fixed;
+	background-color: white;
+	min-width: 100%;
+	z-index: 12;
+}
+
+nav {
+	color: black;
+	font-size: 1rem;
+}
+
+.nav-item {
+	margin-right: 1.5em;
+}
+
+
+.dropdown-menu{
+	background-color: white;
+	border: none;
+  }
+
+.dropdown-item:focus {
+	color: white;
+	background-color: grey; 
+}
+
+/*Main Body*/
+
+.link {
+	color: darkgrey;
+	font-weight: 600;
+}
+
+.link:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+.link:focus {
+	color: black; 
+}
+
+
+
+/*Jumbotron Volcano Styling*/
+
+#jumbotronmountain {
+	background-image: url(./jumbotron-low-res/9hr.JPG);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	top: 3em;
+}
+
+.jumbotron{
+	height: 20em;
+	border-radius: 0;
+}
+
+@media only screen and (min-width: 768px) {
+.jumbotron {
+	height: 25em;
+}
+}
+
+
+@media only screen and (min-width: 992px) {
+.jumbotron {
+	height: 30em;
+}
+}
+
+
+@media only screen and (min-width: 1200px) {
+.jumbotron {
+	height: 35em;
+}
+}
+
+/*Main Body*/
+
+
+/*Heading Size*/
+
+@media only screen and (max-width: 576px) {
+	.display-3 {
+	font-size: 2rem;
+}
+}
+
+@media only screen and (max-width: 768px) {
+	.display-3 {
+	font-size: 3rem;
+}
+}
+
+
+
+/*Footer Image Sizing*/
+
+	.footer img {
+		border: none;
+		margin: 1rem;
+	}
+
