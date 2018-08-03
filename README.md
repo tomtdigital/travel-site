@@ -1,1 +1,1 @@
-Photography in this site is strictly for personal use only.
+Photography in this site is strictly not for commercial use.
